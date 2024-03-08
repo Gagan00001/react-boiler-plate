@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "NunitoBold";
+  src: url("../../public/assets/fonts/Nunito-Bold.ttf");
+}
+
+@font-face {
+  font-family: "NunitoExtraBold";
+  src: url("../../public/assets/fonts/Nunito-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "NunitoExtraLight";
+  src: url("../../public/assets/fonts/Nunito-ExtraLight.ttf");
+}
+
+@font-face {
+  font-family: "NunitoLight";
+  src: url("../../public/assets/fonts/Nunito-Light.ttf");
+}
+
+@font-face {
+  font-family: "NunitoRegular";
+  src: url("../../public/assets/fonts/Nunito-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../../public/assets/fonts/Nunito-Regular.ttf");
+}
+
+@font-face {
+  font-family: "NunitoSemiBold";
+  src: url("../../public/assets/fonts/Nunito-SemiBold.ttf");
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito";
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #8696a5;
+  border-radius: 6px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}

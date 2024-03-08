@@ -1,0 +1,3 @@
+project_type,project_name,mode_of_project,start_date,end_date,domain,sub_domain,description,vision,beneficiary,stakeholders,intervention_type,learning_opportunities,state,district,block,stream
+ert01frg,Sample Project CSV,IN_COMMUNITY,01-02-2024,01-06-2024,1,1,test project description,to read csv,"1,2","1,2","1,2",,1,81c95b28-230a-49cd-959b-6934f483d738,1,1
+ert02furg,Sample Project CSV 2,VIRTUAL,01-02-2024,01-06-2024,1,1,test project 2 desc,second record reading,1,2,"1,2",1,1,81c95b28-230a-49cd-959b-6934f483d738,"1,2",1

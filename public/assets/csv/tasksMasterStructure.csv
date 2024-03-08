@@ -1,0 +1,9 @@
+task_name,intervention_type,start_date,end_date,description,sub_tasks,parameters
+Task1 CSV,1,01-02-2024,01-03-2024,test task description,CSV: child assessment,"1,2"
+,,,,,CSV: women healthcare,"2,3"
+,,,,,CSV: new sub task,"4,5"
+,,,,,CSV: added sub task,"7,6"
+Task2 CSV,"1,2",01-02-2024,01-03-2024,task 2 description,CSV: sub task 1,1
+,,,,,CSV: sub task 2,2
+Task3 CSV,"1,2",01-02-2024,01-03-2024,task 3 description,CSV: sub task 3,"1,3"
+,,,,,CSV: sub task 4,2

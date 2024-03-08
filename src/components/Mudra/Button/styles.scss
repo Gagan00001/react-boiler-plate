@@ -1,0 +1,177 @@
+// Define SCSS variables for colors
+$primary-Color: #f37e62;
+$piramal-orange-100: #f26841;
+$primary-text-color: #fff;
+$piramal-blue-100: #365069;
+$piramal-blue-140: #20303F;
+$primary-active-color: #913e27;
+$piramal-white-100: #fff;
+$piramal-white-110: #e6e6e6;
+
+.mudra-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 700;
+
+  .icon {
+    object-fit: cover;
+    object-position: center;
+  }
+
+  &.small {
+    padding: 8px 12px;
+    font-size: 12px;
+    line-height: 16px;
+    height: 32px;
+    .icon {
+      height: 12px;
+      width: 12px;
+    }
+  }
+
+  &.medium {
+    padding: 10px 16px;
+    font-size: 14px;
+    line-height: 20px;
+    height: 40px;
+    .icon {
+      height: 13.5px;
+      width: 13.5px;
+    }
+  }
+  &.large {
+    padding: 12px 24px;
+    font-size: 16px;
+    line-height: 24px;
+    height: 48px;
+    .icon {
+      height: 15px;
+      width: 15px;
+    }
+  }
+  &.xl {
+    padding: 16px 24px;
+    font-size: 18px;
+    line-height: 26px;
+    height: 58px;
+    .icon {
+      height: 16.5px;
+      width: 16.5px;
+    }
+  }
+
+  &.left-aligned {
+    flex-direction: row-reverse;
+    .icon {
+      margin-right: 8px;
+    }
+  }
+  &.right-aligned {
+    flex-direction: row;
+    .icon {
+      margin-left: 8px;
+    }
+  }
+
+  &.enabled {
+    cursor: pointer;
+  }
+  &.disabled {
+    cursor: not-allowed;
+  }
+
+  &.auto {
+    width: max-content;
+  }
+  &.full {
+    width: 100%;
+  }
+  &.half {
+    width: 50%;
+  }
+  &.square,
+  &.circle {
+    padding: unset;
+    .icon {
+      margin: unset;
+    }
+    &.small {
+      height: 32px;
+      width: 32px;
+    }
+    &.medium {
+      height: 40px;
+      width: 40px;
+    }
+    &.large {
+      height: 48px;
+      width: 48px;
+    }
+    &.xl {
+      height: 58px;
+      width: 58px;
+    }
+  }
+
+  &.circle {
+    border-radius: 50%;
+  }
+
+  &.primary {
+    background-color: $piramal-orange-100;
+    color: $primary-text-color;
+    border:none;
+    &:active {
+      background-color: $primary-active-color;
+      border:none;
+    }
+    &.disabled {
+      &:active {
+        background-color: $primary-Color;
+      }
+    }
+  }
+  &.secondary {
+    color: $piramal-blue-100;
+    background-color: $piramal-white-100;
+    border: 1px solid $piramal-blue-100;
+    &:active {
+      background-color: $piramal-white-110;
+      color: $piramal-blue-140;
+      border: 1px solid $piramal-blue-140;
+    }
+    &.disabled {
+      &:active {
+        background-color: $piramal-white-100;
+      }
+    }
+    &.medium {
+      padding: 7px 11px;
+    }
+  }
+  &.ghost {
+    color: $piramal-blue-100;
+    &:active {
+      background-color: $piramal-white-110;
+      color: $piramal-blue-140;
+    }
+    &.disabled {
+      &:active {
+        background-color: unset;
+      }
+    }
+  }
+
+  &.primary,
+  &.secondary,
+  &.ghost {
+    &.disabled {
+      opacity: 0.3;
+    }
+  }
+}
+
